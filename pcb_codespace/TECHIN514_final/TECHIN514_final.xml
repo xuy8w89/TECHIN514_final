@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\weiyexu\Desktop\hs_lab\codespace\TECHIN514_W26\Lab2_component-selection\regulator_demo\TECHIN514_final\TECHIN514_final.kicad_sch</source>
+    <date>2026-01-26T17:46:13-0800</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TECHIN514_final.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BAT1">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="my_pcb" part="Battery" description=""/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>777a584b-0d5e-4784-8b71-1ac680a64326</tstamps>
+    </comp>
+    <comp ref="BAT2">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="Battery_1" description=""/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f62acba6-1340-44f7-bf95-ad0b62432463</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d6398a0-61d2-4d52-a0e8-2b9d3ee2d0e5</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <datasheet>~</datasheet>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f1eb8ba-df90-4c5b-8e3f-474d4fa079b0</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d60cd8d-c97a-467c-bef8-732d5ed266e9</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <datasheet>~</datasheet>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>383f60f0-4684-429b-a2ef-012ab6261727</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05444c9d-9228-4f53-abb1-ad8b4bfdf225</tstamps>
+    </comp>
+    <comp ref="ESP1">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="my_pcb" part="XIAO_ESP32C3" description=""/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b85d7818-888c-4ed5-88b0-a447ffd5b38c</tstamps>
+    </comp>
+    <comp ref="ESP2">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="XIAO_ESP32C3_1" description=""/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f9e1e98-a77e-4347-a830-2c796272de15</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Motor_DC</value>
+      <datasheet>~</datasheet>
+      <description>DC Motor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Motor</field>
+      </fields>
+      <libsource lib="Motor" part="Motor_DC" description="DC Motor"/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <property name="ki_keywords" value="DC Motor"/>
+      <property name="ki_fp_filters" value="PinHeader*P2.54mm* TerminalBlock*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>667a6a01-85c6-46ef-8407-fa25986ad2a5</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bf47f11-d3fb-4045-9308-23606be2a5c5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1Mohms</value>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eccdd2f2-83e7-4700-a11e-1228138ceebe</tstamps>
+    </comp>
+    <comp ref="RP1">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="my_pcb" part="RP-C18.3-ST" description=""/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4bede10-d3da-4508-9237-a21e700926e9</tstamps>
+    </comp>
+    <comp ref="TB1">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="my_pcb" part="TB6612FNG" description=""/>
+      <property name="Sheetname" value="根目录"/>
+      <property name="Sheetfile" value="TECHIN514_final.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64f3b9c0-6443-4213-935f-7b5fb9a18d7b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Battery_1">
+      <fields>
+        <field name="Reference">BAT</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="" name="+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="XIAO_ESP32C3_1">
+      <fields>
+        <field name="Reference">ESP32</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="" name="D0" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Motor_DC">
+      <description>DC Motor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_DC</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Motor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="my_pcb" part="Battery">
+      <fields>
+        <field name="Reference">BAT</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="" name="+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="my_pcb" part="RP-C18.3-ST">
+      <fields>
+        <field name="Reference">RP</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="my_pcb" part="TB6612FNG">
+      <fields>
+        <field name="Reference">TB6612</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="" name="VM1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="my_pcb" part="XIAO_ESP32C3">
+      <fields>
+        <field name="Reference">ESP32</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="" name="D0" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="my_pcb">
+      <uri>C:\Users\weiyexu\Desktop\hs_lab\codespace\TECHIN514_W26\Lab2_component-selection\regulator_demo\TECHIN514_final/my_pcb.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(BAT1-+)" class="Default">
+      <node ref="BAT1" pin="" pinfunction="+" pintype="input"/>
+      <node ref="ESP1" pin="" pinfunction="BAT+" pintype="input"/>
+    </net>
+    <net code="2" name="Net-(BAT1--)" class="Default">
+      <node ref="BAT1" pin="" pinfunction="-" pintype="input"/>
+      <node ref="ESP1" pin="" pinfunction="BAT-" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(BAT2-+)" class="Default">
+      <node ref="BAT2" pin="" pinfunction="+" pintype="input"/>
+      <node ref="ESP2" pin="" pinfunction="BAT+" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(BAT2--)" class="Default">
+      <node ref="BAT2" pin="" pinfunction="-" pintype="input"/>
+      <node ref="ESP2" pin="" pinfunction="BAT-" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D1-K)" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="ESP2" pin="" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="TB1" pin="" pinfunction="PGND2" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(ESP1-3V3)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="3V3" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(ESP1-D10)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="RP1" pin="" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(ESP1-GND)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="RP1" pin="" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(ESP2-3V3)" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="ESP2" pin="" pinfunction="3V3" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TB1" pin="" pinfunction="Vcc" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(ESP2-D0)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="TB1" pin="" pinfunction="PWMA" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(ESP2-D1)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="TB1" pin="" pinfunction="AIN2" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(ESP2-D2)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="TB1" pin="" pinfunction="AIN1" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(ESP2-D3)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="TB1" pin="" pinfunction="STBY" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(M1-+)" class="Default">
+      <node ref="M1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="TB1" pin="" pinfunction="AO1" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(M1--)" class="Default">
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="TB1" pin="" pinfunction="AO2" pintype="input"/>
+    </net>
+    <net code="17" name="VM" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="TB1" pin="" pinfunction="VM2" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(ESP1-5V-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="5V" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(ESP1-D0-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="D0" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(ESP1-D1-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="D1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(ESP1-D2-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(ESP1-D3-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(ESP1-D6-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(ESP1-D7-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(ESP1-D8-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(ESP1-D9-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(ESP1-SCL-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(ESP1-SDA-Pad)" class="Default">
+      <node ref="ESP1" pin="" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(ESP2-5V-Pad)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="5V" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(ESP2-D6-Pad)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(ESP2-D7-Pad)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(ESP2-D8-Pad)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(ESP2-D9-Pad)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(ESP2-D10-Pad)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(ESP2-SCL-Pad)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(ESP2-SDA-Pad)" class="Default">
+      <node ref="ESP2" pin="" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(TB1-BIN1-Pad)" class="Default">
+      <node ref="TB1" pin="" pinfunction="BIN1" pintype="input"/>
+    </net>
+    <net code="38" name="unconnected-(TB1-BIN2-Pad)" class="Default">
+      <node ref="TB1" pin="" pinfunction="BIN2" pintype="input"/>
+    </net>
+    <net code="39" name="unconnected-(TB1-BO1-Pad)" class="Default">
+      <node ref="TB1" pin="" pinfunction="BO1" pintype="input"/>
+    </net>
+    <net code="40" name="unconnected-(TB1-BO1-Pad)_1" class="Default">
+      <node ref="TB1" pin="" pinfunction="BO1" pintype="input"/>
+    </net>
+    <net code="41" name="unconnected-(TB1-BO2-Pad)" class="Default">
+      <node ref="TB1" pin="" pinfunction="BO2" pintype="input"/>
+    </net>
+    <net code="42" name="unconnected-(TB1-BO2-Pad)_1" class="Default">
+      <node ref="TB1" pin="" pinfunction="BO2" pintype="input"/>
+    </net>
+    <net code="43" name="unconnected-(TB1-PWMB-Pad)" class="Default">
+      <node ref="TB1" pin="" pinfunction="PWMB" pintype="input"/>
+    </net>
+  </nets>
+</export>
