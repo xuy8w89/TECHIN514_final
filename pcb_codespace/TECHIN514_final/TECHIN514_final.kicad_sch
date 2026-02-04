@@ -105,6 +105,106 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Battery_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BAT"
+				(at 0 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_2_0_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_2_1_1"
+				(pin input line
+					(at -1.27 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -897,6 +997,106 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RP-C18.3-ST_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RP-C18.3-ST_1_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.8398)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RP-C18.3-ST_1_1_1"
+				(pin passive line
+					(at -1.27 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XIAO_ESP32C3_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -958,6 +1158,358 @@
 				)
 			)
 			(symbol "XIAO_ESP32C3_1_1_1"
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -11.43 90)
+					(length 2.54)
+					(name "BAT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -11.43 90)
+					(length 2.54)
+					(name "BAT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XIAO_ESP32C3_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ESP32"
+				(at 0.254 2.286 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XIAO_ESP32C3_2_0_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XIAO_ESP32C3_2_1_1"
 				(pin bidirectional line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -2532,6 +3084,12 @@
 		(uuid "a3e9ef80-f752-416c-b670-5d46a4dcd709")
 	)
 	(junction
+		(at 80.01 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03702c2-bad2-4c99-9616-7d0cbc1a2116")
+	)
+	(junction
 		(at 78.74 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2631,6 +3189,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 149.86) (xy 69.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2b6c2a-9899-4bcb-b3b1-1cf7fe0f140c")
+	)
+	(wire
+		(pts
 			(xy 160.02 74.93) (xy 160.02 85.09)
 		)
 		(stroke
@@ -2668,6 +3236,16 @@
 			(type default)
 		)
 		(uuid "1da95b9a-90e0-415c-9f4c-f273d41ec6ac")
+	)
+	(wire
+		(pts
+			(xy 52.07 163.83) (xy 52.07 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2145ff7a-8631-401d-b54f-f10c7a96e97c")
 	)
 	(wire
 		(pts
@@ -2901,6 +3479,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 170.18) (xy 55.88 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6140a545-de65-4e15-b354-c49f8a0b3013")
+	)
+	(wire
+		(pts
 			(xy 160.02 85.09) (xy 172.72 85.09)
 		)
 		(stroke
@@ -2928,6 +3516,16 @@
 			(type default)
 		)
 		(uuid "7459de38-03e6-4be1-b2d7-e67de91a51cb")
+	)
+	(wire
+		(pts
+			(xy 63.5 152.4) (xy 80.01 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fc04f3-60d3-45bd-a99f-2c33aa3413a7")
 	)
 	(wire
 		(pts
@@ -3051,6 +3649,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 147.32) (xy 81.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905a664c-dbef-49a0-8977-e34227015788")
+	)
+	(wire
+		(pts
 			(xy 160.02 63.5) (xy 160.02 74.93)
 		)
 		(stroke
@@ -3118,6 +3726,16 @@
 			(type default)
 		)
 		(uuid "aa3020cf-fa3a-4550-9503-46511c8cb1ed")
+	)
+	(wire
+		(pts
+			(xy 80.01 152.4) (xy 80.01 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b578d3e9-becf-482b-8092-4503ed7b4ce0")
 	)
 	(wire
 		(pts
@@ -3311,6 +3929,26 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 149.86) (xy 80.01 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef729851-7ff7-42ba-bde1-1461b66bb2ea")
+	)
+	(wire
+		(pts
+			(xy 54.61 170.18) (xy 55.88 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1461422-8602-459d-80aa-07f4fe73afd7")
+	)
+	(wire
+		(pts
 			(xy 170.18 58.42) (xy 170.18 62.23)
 		)
 		(stroke
@@ -3328,6 +3966,16 @@
 			(type default)
 		)
 		(uuid "f63ce68a-91f6-401a-81bc-64d6f0c9fe9e")
+	)
+	(wire
+		(pts
+			(xy 80.01 149.86) (xy 81.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa361c8-3105-41c1-9d57-d0141e5cac48")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -3611,6 +4259,77 @@
 		)
 	)
 	(symbol
+		(lib_name "Battery_2")
+		(lib_id "my_pcb:Battery")
+		(at 53.34 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "432f491e-786a-4f60-9e8f-9bcddaae057c")
+		(property "Reference" "BAT3"
+			(at 57.15 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 57.15 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2e71695c-5eae-4669-b94d-77a9def856ca")
+		)
+		(pin ""
+			(uuid "dd2609b8-be1e-449a-ab3e-ce9a56699791")
+		)
+		(instances
+			(project "TECHIN514_final"
+				(path "/e6281833-f3ff-436e-9d5d-e5d1fca3e81a"
+					(reference "BAT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "my_pcb:TB6612FNG")
 		(at 93.98 63.5 270)
 		(unit 1)
@@ -3809,6 +4528,117 @@
 			(project ""
 				(path "/e6281833-f3ff-436e-9d5d-e5d1fca3e81a"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "XIAO_ESP32C3_2")
+		(lib_id "my_pcb:XIAO_ESP32C3")
+		(at 53.34 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa20b0b-f816-4e04-bf27-79acc959929a")
+		(property "Reference" "ESP3"
+			(at 53.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "88adb179-58b5-48dd-9ace-7ef62b511424")
+		)
+		(pin ""
+			(uuid "348b3fd8-770b-4171-aa30-a8493e00e5a2")
+		)
+		(pin ""
+			(uuid "2c73a1bc-5a1b-4dbc-a2b2-d2e008c34e0c")
+		)
+		(pin ""
+			(uuid "6dd936d5-18ac-4bb6-bd63-093d16891b11")
+		)
+		(pin ""
+			(uuid "69db5d62-fb66-48bd-a3c3-0baa07b11d41")
+		)
+		(pin ""
+			(uuid "4f9e0f9b-744e-4cb8-96f3-c43817f0f67c")
+		)
+		(pin ""
+			(uuid "1f5f2c7d-060f-437b-81c3-f7bcec905fd4")
+		)
+		(pin ""
+			(uuid "c2fd731b-df11-4e1a-a893-4520b17287b5")
+		)
+		(pin ""
+			(uuid "b1198af7-1927-4e99-9b04-8ca6a10b3bc9")
+		)
+		(pin ""
+			(uuid "8baf3ce8-36ef-416d-a85d-98a307b00fd7")
+		)
+		(pin ""
+			(uuid "c6911c29-a3e8-4d8d-9dd0-4b09bb97e7be")
+		)
+		(pin ""
+			(uuid "177a7e38-bace-447d-bb29-405dc951c2fe")
+		)
+		(pin ""
+			(uuid "b9773215-7e68-4af3-8440-366566bb18c6")
+		)
+		(pin ""
+			(uuid "d8a477a4-b08c-4562-a40b-242a72b02ce9")
+		)
+		(pin ""
+			(uuid "15b61729-a637-4165-a63a-09b2694ff982")
+		)
+		(pin ""
+			(uuid "2a1eb85a-c398-494a-890b-c862a272a4bc")
+		)
+		(instances
+			(project "TECHIN514_final"
+				(path "/e6281833-f3ff-436e-9d5d-e5d1fca3e81a"
+					(reference "ESP3")
 					(unit 1)
 				)
 			)
@@ -4386,6 +5216,77 @@
 		)
 	)
 	(symbol
+		(lib_name "RP-C18.3-ST_1")
+		(lib_id "my_pcb:RP-C18.3-ST")
+		(at 86.36 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccc541cc-f89b-4fbc-9c27-f21e654d3034")
+		(property "Reference" "RP2"
+			(at 87.6301 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 85.0901 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "344b5389-b8fb-4875-a761-80a681edb011")
+		)
+		(pin ""
+			(uuid "a40016e5-bd94-43c6-988c-5caa7337f8e2")
+		)
+		(instances
+			(project "TECHIN514_final"
+				(path "/e6281833-f3ff-436e-9d5d-e5d1fca3e81a"
+					(reference "RP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 73.66 97.79 270)
 		(unit 1)
@@ -4450,6 +5351,76 @@
 			(project ""
 				(path "/e6281833-f3ff-436e-9d5d-e5d1fca3e81a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4664323-35c4-4271-b271-e08fd3d72afe")
+		(property "Reference" "R3"
+			(at 74.9301 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1MΩ"
+			(at 72.3901 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8a13a3c-83be-496a-9b23-6d812ee388d6")
+		)
+		(pin "1"
+			(uuid "85272441-5b2d-41a6-bc7d-3025238ca3e0")
+		)
+		(instances
+			(project "TECHIN514_final"
+				(path "/e6281833-f3ff-436e-9d5d-e5d1fca3e81a"
+					(reference "R3")
 					(unit 1)
 				)
 			)
