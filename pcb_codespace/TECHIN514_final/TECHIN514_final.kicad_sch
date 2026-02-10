@@ -1072,20 +1072,30 @@
 		)
 	)
 	(junction
-		(at 161.29 157.48)
+		(at 142.24 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "afb064b3-38cd-451f-87f4-f4a373a45d27")
+		(uuid "7d858250-31be-4200-b924-bf45baab8fd9")
 	)
 	(wire
 		(pts
-			(xy 245.11 102.87) (xy 157.48 102.87)
+			(xy 245.11 102.87) (xy 189.23 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "046d6cf3-3967-48da-8c87-c8583927184e")
+	)
+	(wire
+		(pts
+			(xy 186.69 99.06) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f3eca7-52a0-4fa2-bb60-648e06137adb")
 	)
 	(wire
 		(pts
@@ -1169,6 +1179,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 99.06) (xy 189.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618b0ac6-8600-4888-a059-72a7e9120246")
+	)
+	(wire
+		(pts
 			(xy 184.15 127) (xy 190.5 127)
 		)
 		(stroke
@@ -1179,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 157.48) (xy 161.29 163.83)
+			(xy 142.24 157.48) (xy 142.24 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1299,13 +1319,33 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 157.48) (xy 161.29 157.48)
+			(xy 142.24 157.48) (xy 161.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4914bbf-03fc-4f3f-a5c2-eb6dc8fa9d9e")
+	)
+	(wire
+		(pts
+			(xy 102.87 157.48) (xy 142.24 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7d3c330-d17b-4cca-a410-bc763accd70f")
+	)
+	(wire
+		(pts
+			(xy 186.69 102.87) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2202bc-8a01-4674-9b34-d9a8e00bc0e7")
 	)
 	(wire
 		(pts
@@ -1410,6 +1450,76 @@
 			(project ""
 				(path "/e6281833-f3ff-436e-9d5d-e5d1fca3e81a"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 189.23 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7636f56c-ede3-4df7-a448-f48f0ac41d03")
+		(property "Reference" "J2"
+			(at 190.5 93.3449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 190.5 95.8849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f58f619f-5886-4d92-b1a9-1648fd16c276")
+		)
+		(pin "2"
+			(uuid "9d1cb822-dc64-4aed-a49f-11f92cde6b15")
+		)
+		(instances
+			(project "TECHIN514_final"
+				(path "/e6281833-f3ff-436e-9d5d-e5d1fca3e81a"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1566,7 +1676,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 163.83 0)
+		(at 142.24 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1575,7 +1685,7 @@
 		(fields_autoplaced yes)
 		(uuid "c845af03-532c-40f1-8951-2957acd1c5c8")
 		(property "Reference" "#PWR01"
-			(at 161.29 170.18 0)
+			(at 142.24 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 168.91 0)
+			(at 142.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 163.83 0)
+			(at 142.24 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 163.83 0)
+			(at 142.24 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 163.83 0)
+			(at 142.24 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
